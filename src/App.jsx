@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Mail, ExternalLink, Code, Database, Layout, Server, User } from 'lucide-react';
 import profilePic from './assets/Professional_Portrait.jpg';
+import geoSpatial from './assets/geo-spatial.png';
 
 const App = () => {
   const fadeIn = {
@@ -175,7 +176,7 @@ const App = () => {
             <div className="flex flex-col lg:flex-row-reverse gap-8 items-center">
               <div className="w-full lg:w-7/12 aspect-video bg-slate-800 rounded-xl border border-slate-700 flex items-center justify-center relative overflow-hidden group">
                 <div className="absolute inset-0 bg-blue-900/20 group-hover:bg-transparent transition-colors z-10"></div>
-                <span className="text-slate-500 font-mono">Geo_Tracking_App.jpg</span>
+                <span className="text-slate-500 font-mono"><img src={geoSpatial} alt="Geospatial Employee Tracker" /></span>
               </div>
               <div className="w-full lg:w-5/12 z-20">
                 <p className="text-blue-400 font-mono text-sm mb-2">Location & Analytics</p>
