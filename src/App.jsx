@@ -174,10 +174,16 @@ const App = () => {
 
             {/* Project 2 */}
             <div className="flex flex-col lg:flex-row-reverse gap-8 items-center">
-              <div className="w-full lg:w-7/12 aspect-video bg-slate-800 rounded-xl border border-slate-700 flex items-center justify-center relative overflow-hidden group">
+              <a
+                href="https://geospatialemployeetracker.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full lg:w-7/12 aspect-video bg-slate-800 rounded-xl border border-slate-700 flex items-center justify-center relative overflow-hidden group cursor-pointer"
+                aria-label="Open Geospatial Employee Tracker"
+              >
                 <div className="absolute inset-0 bg-blue-900/20 group-hover:bg-transparent transition-colors z-10"></div>
                 <span className="text-slate-500 font-mono"><img src={geoSpatial} alt="Geospatial Employee Tracker" /></span>
-              </div>
+              </a>
               <div className="w-full lg:w-5/12 z-20">
                 <p className="text-blue-400 font-mono text-sm mb-2">Location & Analytics</p>
                 <h4 className="text-2xl font-bold mb-4">Geospatial Employee Tracker</h4>
