@@ -120,12 +120,12 @@ const App = () => {
             <div className="p-6 bg-slate-800/50 rounded-xl border border-slate-700 hover:border-blue-500/50 transition-colors">
               <Server className="text-blue-400 mb-4" size={32} />
               <h4 className="font-bold mb-2">Backend</h4>
-              <p className="text-slate-400 text-sm">Node.js, Express, RESTful APIs, node-schedule</p>
+              <p className="text-slate-400 text-sm">Node.js, Express, GraphQL RESTful APIs, node-schedule</p>
             </div>
             <div className="p-6 bg-slate-800/50 rounded-xl border border-slate-700 hover:border-blue-500/50 transition-colors">
               <Database className="text-blue-400 mb-4" size={32} />
               <h4 className="font-bold mb-2">Database</h4>
-              <p className="text-slate-400 text-sm">MongoDB, PostgreSQL, Sequelize ORM</p>
+              <p className="text-slate-400 text-sm">MongoDB, MySQL, PostgreSQL, Sequelize ORM</p>
             </div>
             <div className="p-6 bg-slate-800/50 rounded-xl border border-slate-700 hover:border-blue-500/50 transition-colors">
               <Code className="text-blue-400 mb-4" size={32} />
